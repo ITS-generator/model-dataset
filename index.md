@@ -1,4 +1,4 @@
-## ITS generator dataset: demo financial institution
+## ITS generator dataset
 
 This repository contains sample models of IT systems. The folder structure is as follows. Top-level folders indicate the overall type of IT system, while the folders inside correspond to different variants of that type. Inside each of those, there are three additional folders, namely "inputs", "outputs", and "visualization", that respectively contain input files describing basic requirements of the IT system in question, generated model of an IT system for stated requirements, and an automatically generated visualization of the IT system. Each of the three folders contains several files for different problem sizes of the variant in question.
 
@@ -6,7 +6,7 @@ As larger models of ITSs have large file sizes, the web pages may require longer
 
 For additional resources, please visit the repository [here](https://github.com/ITS-generator/model-dataset).
 
-# Visualizations
+# Visualizations for demo financial institution
 
 Visualizations are listed in four subsections corresponding to four different configurations of network segmentation rules and employee roles. The second number in the filename corresponds to the number of employees generated in the sample, ranging from 100 to 1500 employees, with four files for each such configuration:
 - _landscape.html_ provides an overview of the generated ITS focused on software components, employees and services;
